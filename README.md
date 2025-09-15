@@ -115,11 +115,14 @@ ORDER BY Total_Pizza_Sold ASC;
 
 Clone this repository
 
-Run SQL queries from [PIZZA_SQL_QUERIES.sql](PIZZA_SQL_QUERIES.pdf) on your database
+Run SQL queries from [PIZZA_SQL_QUERIES.sql](Document/PIZZA_SQL_QUERIES.pdf) on your database
 
-Open [Dashborad.pbix](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC00ZTUwLThjNmItYTg0MzU3NjlmOTQ2IiwidCI6IjY0YjkzNTFmLTMzZGYtNDAyNy1iNTNiLThiNDEyYjdmYmU5NCJ9) file in Power BI to explore the dashboard interactively
+Open .pbix file in Power BI to explore the dashboard interactively
 
 ## 🖼 Dashboard Preview
+
+[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC00ZTUwLThjNmItYTg0MzU3NjlmOTQ2IiwidCI6IjY0YjkzNTFmLTMzZGYtNDAyNy1iNTNiLThiNDEyYjdmYmU5NCJ9)
+
 
 ### Overview Page
 
