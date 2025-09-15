@@ -10,6 +10,19 @@ The dashboard highlights **revenue trends, best/worst sellers, and sales distrib
 
 ---
 
+📂 Pizza-Sales-Analysis
+ ┣ 📂 data
+ ┃ ┗ [📄 pizza_sales.xlsx]()          # Raw dataset (or .xlsx file if available)
+ ┣ 📂 sql
+ ┃ ┗ [📄 PIZZA_SQL_QUERIES.sql]()    # All SQL queries used for KPIs & analysis
+ ┣ 📂 dashboard
+ ┃ ┗ [📄 Pizza_Sales_Dashboard.pbix]()  # Power BI dashboard file
+ ┣ 📂 images
+ ┃ ┣ [📸 Screenshot_Overview.png]()
+ ┃ ┗ [📸 Screenshot_BestWorst.png]()
+ ┗ 📄 README.md                  # This file (project documentation)
+
+
 ## 🛠️ **Tech Stack**
 - 🗄 **SQL** – KPI calculations, trend analysis  
 - 📊 **Power BI** – Interactive dashboard creation  
@@ -85,3 +98,21 @@ ORDER BY Total_Pizza_Sold ASC;
 **Category:** 🏆 Classic category leads in revenue & orders
 
 **Size:** 🍕 Large pizza = 45.89% of sales
+
+## 💡 Key Insights & Recommendations
+
+**📌 Stock More Large Pizzas –** They contribute to maximum sales
+
+**📌 Focus Promotions on Weekends –** Highest order volume occurs Friday & Saturday evenings
+
+**📌 Push Underperforming Pizzas –** Consider discounts for Brie Carre & Mediterranean pizzas
+
+**📌 Leverage July & January Demand –** Plan marketing campaigns during these months
+
+## 🚀 How to Use
+
+Clone this repository
+
+Run SQL queries from [PIZZA_SQL_QUERIES.sql](PIZZA_SQL_QUERIES.pdf) on your database
+
+Open [Dashborad.pbix](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC00ZTUwLThjNmItYTg0MzU3NjlmOTQ2IiwidCI6IjY0YjkzNTFmLTMzZGYtNDAyNy1iNTNiLThiNDEyYjdmYmU5NCJ9) file in Power BI to explore the dashboard interactively
