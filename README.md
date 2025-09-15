@@ -27,7 +27,7 @@ The dashboard highlights **revenue trends, best/worst sellers, and sales distrib
 
 ## 🛠️ **Tech Stack**
 - 🗄 **SQL** – KPI calculations, trend analysis  
-- 📊 **Power BI** – Interactive dashboard creation  
+- 📊 **Power BI** – Interactive dashboard creation and Used DAX for Measures/Calculated columns
 - 📂 **Dataset** – Pizza sales (orders, categories, quantities, prices)
 
 ---
@@ -121,8 +121,10 @@ Open [Dashborad.pbix](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC0
 
 ## 🖼 Dashboard Preview
 
-**Overview Page**
+### Overview Page
+
 <img src="Images/Home_Dashborad.png" alt="Alt text">
 
-**Best/Worst Sellers Page**
-<img src="Work_Dashboard.png" alt="Alt text">
+### Best/Worst Sellers Page
+
+<img src="Images/Work_Dashboard.png" alt="Alt text">
