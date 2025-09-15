@@ -44,6 +44,8 @@ CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECI
 FROM pizza_sales
 GROUP BY pizza_category;
 
+## 🏆 Best & Worst Sellers
+
 -- Top 5 Sellers
 SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
 FROM pizza_sales
