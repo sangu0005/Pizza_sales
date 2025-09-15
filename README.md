@@ -121,7 +121,7 @@ Open .pbix file in Power BI to explore the dashboard interactively
 
 ## 🖼 Dashboard Preview
 
-[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC00ZTUwLThjNmItYTg0MzU3NjlmOTQ2IiwidCI6IjY0YjkzNTFmLTMzZGYtNDAyNy1iNTNiLThiNDEyYjdmYmU5NCJ9)
+**[View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC00ZTUwLThjNmItYTg0MzU3NjlmOTQ2IiwidCI6IjY0YjkzNTFmLTMzZGYtNDAyNy1iNTNiLThiNDEyYjdmYmU5NCJ9)**
 
 
 ### Overview Page
