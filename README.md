@@ -3,25 +3,27 @@
 🚀 **Data-driven insights** into pizza sales using SQL & Power BI – uncovering trends, top performers, and revenue drivers to help optimize business decisions.  
 
 ---
+## 📂 Dataset  
+
+The dataset used in this project contains detailed **pizza sales records** including:  
+
+- 🆔 **Order ID** – Unique identifier for each order  
+- 📅 **Order Date** – Date when the order was placed  
+- ⏰ **Order Time** – Time of the order (used for hourly trends)  
+- 🍕 **Pizza Name** – Full name of the pizza ordered  
+- 🏷️ **Pizza Category** – Category (Classic, Supreme, Chicken, Veggie)  
+- 📏 **Pizza Size** – Size (S, M, L, XL, XXL)  
+- 🔢 **Quantity** – Number of pizzas in the order  
+- 💰 **Total Price** – Total price for that line item  
+
+📥 **Download Dataset:** [pizza_sales.xlsx]()  
+> *(Click to view or download the raw dataset directly from this repository.)*
 
 ## 📊 **Project Overview**  
 This project explores **pizza sales data** using SQL for data extraction and Power BI for visualization.  
 The dashboard highlights **revenue trends, best/worst sellers, and sales distribution by category & size**.
 
 ---
-
-📂 Pizza-Sales-Analysis
- ┣ 📂 data
- ┃ ┗ [📄 pizza_sales.xlsx]()          # Raw dataset (or .xlsx file if available)
- ┣ 📂 sql
- ┃ ┗ [📄 PIZZA_SQL_QUERIES.sql]()    # All SQL queries used for KPIs & analysis
- ┣ 📂 dashboard
- ┃ ┗ [📄 Pizza_Sales_Dashboard.pbix]()  # Power BI dashboard file
- ┣ 📂 images
- ┃ ┣ [📸 Screenshot_Overview.png]()
- ┃ ┗ [📸 Screenshot_BestWorst.png]()
- ┗ 📄 README.md                  # This file (project documentation)
-
 
 ## 🛠️ **Tech Stack**
 - 🗄 **SQL** – KPI calculations, trend analysis  
