@@ -32,6 +32,7 @@ FROM pizza_sales;
 SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
 ```
 ## 📅 Trends & Distribution
+```sql
 -- Daily Trend
 SELECT DATENAME(DW, order_date) AS order_day, COUNT(DISTINCT order_id) AS total_orders
 FROM pizza_sales
@@ -42,4 +43,45 @@ SELECT pizza_category, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
 CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
 FROM pizza_sales
 GROUP BY pizza_category;
+```
+## 🏆 Best & Worst Sellers
+```sql
+-- Top 5 Sellers
+SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
+FROM pizza_sales
+GROUP BY pizza_name
+ORDER BY Total_Pizza_Sold DESC;
 
+-- Bottom 5 Sellers
+SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
+FROM pizza_sales
+GROUP BY pizza_name
+ORDER BY Total_Pizza_Sold ASC;
+```
+## 📈 Dashboard Highlights
+| 📌 Metric                | 📊 Value  |
+| ------------------------ | --------- |
+| 💰 **Total Revenue**     | `817.86K` |
+| 🍕 **Total Pizzas Sold** | `49,574`  |
+| 🛒 **Total Orders**      | `21,350`  |
+| 📦 **Avg Order Value**   | `38.31`   |
+| 🔢 **Avg Pizzas/Order**  | `2.32`    |
+
+## 🕑 Busiest Days & Times
+
+✅ Friday & Saturday evenings see the highest order volume
+📅 Peak Months: July and January
+
+## 🏆 Best/Worst Performers
+
+**🥇 Top Pizza by Revenue:** Thai Chicken
+
+**🥇 Top Pizza by Quantity & Orders:** Classic Deluxe
+
+**🥀 Lowest Sales:** Brie Carre
+
+## 📊 Sales Distribution
+
+**Category:** 🏆 Classic category leads in revenue & orders
+
+**Size:** 🍕 Large pizza = 45.89% of sales
