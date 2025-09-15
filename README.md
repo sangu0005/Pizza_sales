@@ -16,7 +16,7 @@ The dataset used in this project contains detailed **pizza sales records** inclu
 - 🔢 **Quantity** – Number of pizzas in the order  
 - 💰 **Total Price** – Total price for that line item  
 
-📥 **Download Dataset:** [pizza_sales.xlsx]()  
+📥 **Download Dataset:** [pizza_sales.xlsx](Data/Pizza_Sales.xlsx)  
 > *(Click to view or download the raw dataset directly from this repository.)*
 
 ## 📊 **Project Overview**  
@@ -118,3 +118,11 @@ Clone this repository
 Run SQL queries from [PIZZA_SQL_QUERIES.sql](PIZZA_SQL_QUERIES.pdf) on your database
 
 Open [Dashborad.pbix](https://app.powerbi.com/view?r=eyJrIjoiZTY2Y2ViY2MtNzkyZC00ZTUwLThjNmItYTg0MzU3NjlmOTQ2IiwidCI6IjY0YjkzNTFmLTMzZGYtNDAyNy1iNTNiLThiNDEyYjdmYmU5NCJ9) file in Power BI to explore the dashboard interactively
+
+## 🖼 Dashboard Preview
+
+**Overview Page**
+<img src="Images/Home_Dashborad.png" alt="Alt text">
+
+**Best/Worst Sellers Page**
+<img src="Work_Dashboard.png" alt="Alt text">
