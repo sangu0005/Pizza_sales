@@ -29,4 +29,7 @@ SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value
 FROM pizza_sales;
 
 -- Total Pizzas Sold
-SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales;
+SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
+
+
+## 📅 Trends & Distribution
